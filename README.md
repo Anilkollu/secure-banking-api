@@ -27,6 +27,7 @@ A secure, modular banking API system built using Java, Spring Boot, and Spring S
 
 **Project Structure**
 
+```text
 secure-banking-api/
 ├── src/
 │   ├── main/
@@ -39,6 +40,7 @@ secure-banking-api/
 ├── pom.xml
 └── .gitignore
 
+```text
 
 
 **API Endpoints (To Be Implemented)**
