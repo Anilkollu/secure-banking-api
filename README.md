@@ -14,7 +14,7 @@ A secure, modular banking API system built using Java, Spring Boot, and Spring S
 
 **Tech Stack**
 
-| Layer              | Tech                           |
+| Layer              | Technology                          |
 |-------------------|--------------------------------|
 | Language           | Java 17+                        |
 | Framework          | Spring Boot, Spring Security   |
