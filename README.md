@@ -40,7 +40,7 @@ secure-banking-api/
 ├── pom.xml
 └── .gitignore
 
-```text
+```
 
 
 **API Endpoints (To Be Implemented)**
