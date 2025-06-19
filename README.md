@@ -26,7 +26,7 @@ A secure, modular banking API system built using Java, Spring Boot, and Spring S
 | Development Tools  | IntelliJ IDEA, GitHub Desktop  |
 
 **Project Structure**
-```text
+
 secure-banking-api/
 ├── src/
 │   ├── main/
