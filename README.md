@@ -26,25 +26,40 @@ A secure, modular banking API system built using Java, Spring Boot, and Spring S
 | Development Tools  | IntelliJ IDEA, GitHub Desktop  |
 
 **Project Structure**
+secure-banking-api/
+├── src/
+│ ├── main/
+│ │ ├── java/
+│ │ └── resources/
+│ ├── test/
+├── Dockerfile
+├── docker-compose.yml
+├── README.md
+├── pom.xml
+└── .gitignore
 
-**Getting Started**
 
-**Prerequisites**
+**API Endpoints (To Be Implemented)**
 
-- Java 17+
-- Maven
-- Docker (optional, for containerization)
-- GitHub Desktop (for repo sync)
-- MySQL or PostgreSQL (Neon.tech for cloud DB)
+| Endpoint              | Method | Access     | Description                  |
+|-----------------------|--------|------------|------------------------------|
+| /api/auth/register    | POST   | Public     | Register new user            |
+| /api/auth/login       | POST   | Public     | Login and get JWT token      |
+| /api/accounts         | GET    | User/Admin | Get account details          |
+| /api/transfer         | POST   | User       | Transfer funds               |
+| /api/transactions     | GET    | User       | View transaction history     |
+| /api/export/pdf       | GET    | User       | Export statements to PDF     |
+| /api/export/csv       | GET    | User       | Export statements to CSV     |
 
-**Running the Project**
 
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/secure-banking-api.git
+**👤 Author**
 
-# Navigate into project folder
-cd secure-banking-api
+**Anil Kollu**  
+[GitHub Profile](https://github.com/YOUR_USERNAME)
 
-# Build & run
-./mvnw spring-boot:run
+
+## 📃 License
+
+This project is licensed under the MIT License.
+
+
