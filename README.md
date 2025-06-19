@@ -1,7 +1,7 @@
 # 💰 Secure Banking API Suite
 A secure, modular banking API system built using Java, Spring Boot, and Spring Security. It simulates core banking features like account management, fund transfers, transaction history, and role-based access.
 
-**Key Features**
+## Key Features
 - ✅ JWT-based user authentication & authorization
 - 👤 User & Admin roles with access control
 - 🏦 Create, update, delete bank accounts
@@ -12,7 +12,7 @@ A secure, modular banking API system built using Java, Spring Boot, and Spring S
 - 🐳 Docker support for containerization
 
 
-**Tech Stack**
+## Tech Stack
 
 | Layer              | Technology                          |
 |-------------------|--------------------------------|
@@ -25,7 +25,7 @@ A secure, modular banking API system built using Java, Spring Boot, and Spring S
 | Deployment         | Docker, Docker Compose         |
 | Development Tools  | IntelliJ IDEA, GitHub Desktop  |
 
-**Project Structure**
+## Project Structure
 
 ```text
 secure-banking-api/
@@ -43,7 +43,7 @@ secure-banking-api/
 ```
 
 
-**API Endpoints (To Be Implemented)**
+## API Endpoints (To Be Implemented)
 
 | Endpoint              | Method | Access     | Description                  |
 |-----------------------|--------|------------|------------------------------|
@@ -56,7 +56,7 @@ secure-banking-api/
 | /api/export/csv       | GET    | User       | Export statements to CSV     |
 
 
-**👤 Author**
+## 👤 Author
 
 **Anil Kollu**  
 [GitHub Profile](https://github.com/Anilkollu)
