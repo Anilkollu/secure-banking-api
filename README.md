@@ -26,17 +26,19 @@ A secure, modular banking API system built using Java, Spring Boot, and Spring S
 | Development Tools  | IntelliJ IDEA, GitHub Desktop  |
 
 **Project Structure**
+```text
 secure-banking-api/
 ├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ └── resources/
-│ ├── test/
+│   ├── main/
+│   │   ├── java/
+│   │   └── resources/
+│   ├── test/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── README.md
 ├── pom.xml
 └── .gitignore
+
 
 
 **API Endpoints (To Be Implemented)**
@@ -55,7 +57,7 @@ secure-banking-api/
 **👤 Author**
 
 **Anil Kollu**  
-[GitHub Profile](https://github.com/YOUR_USERNAME)
+[GitHub Profile](https://github.com/Anilkollu)
 
 
 ## 📃 License
