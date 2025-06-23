@@ -16,11 +16,12 @@ public class Account {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long accountid;
 
     private String accountNumber;
 
     private BigDecimal balance;
+
     private Long userId; // Foreign key to User entity
 
     // Additional fields and methods can be added as needed
